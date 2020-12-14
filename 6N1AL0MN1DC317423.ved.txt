@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ROOT>
+<Vehicle_Info>
+	<Plant_Code>JW</Plant_Code>
+	<Plant_Unique_ID>300000006</Plant_Unique_ID>
+	<VED_Version>0076</VED_Version>
+	<Manufacturer_Code>N</Manufacturer_Code>
+	<Line>4534</Line>
+	<VIN>6N1AL0MN1DC317423</VIN>
+	<Car_Series>T331</Car_Series>
+	<EIM>TCJALBW145EUA-----QAKGUSE</EIM>
+	<Prod_Family_Code>145A</Prod_Family_Code>
+	<Engine_Type>PR25</Engine_Type>
+	<MOTOR_TYPE></MOTOR_TYPE>
+	<PLANNED_OFFLINE_DATE>20191030000000</PLANNED_OFFLINE_DATE>
+</Vehicle_Info>
+<Vehicle_Spec>XNP/HNP/EA1/MA/GASLN/RP50/LHDG/2WDRV/STGPW/EBNSS/ACC00/00ABS/NORFR/ACD00/STDRF/TLGMA/NHTWS/HTRWI/WFTRP/NORFG/CLK00/RVX02/FFGPH/RAL17/FSBAJ/NOTCO/FAB04/NOCNV/CLSCO/CLS02/HARMG/RHR03/FSE00/RSE00/OQAK/MILE0/NORSD/TPRM4/NOSDS/SABG4/LEDH2/ESCHS/FPASS/ALMWP/DB2AP/FMSW0/CLDSL/RVIMA/NPRVX/DWLAP/RWLPW/NOOSW/TPTY0/NHTS0/00USA/BRA04/INJEL/NOHLC/RRDUC/AJSW2/HSTPL/SBR05/RMSB3/NOMDG/AUD03/CVTH/RMLT0/ASOC7/NOTLM/RIM02/TYALS/ISOFI/REFBT/MY00/NOGLK/IMM00/SANTL/CABNOR/ABCXA/NISFED/UL33/C2488/135KW/NOCST/NOETC/TPRWR/M2018/PHAS1/NOAPO/NOHYB/RSALT/NOSUP/NHTWW/FK2/XXX/PR1/NOADR/LDW00/CUH02/BXLG0/RLAM2/NORES/PSFT0/NOFUR/NOUGO/LSD00/NOAML/DRL02/NCALL/MET03/BSD90/ECMD0/NODSC/ITPK0/MDMOD/NHTSW/DAALT/NOHUD/NOWIC/NOSMG/FCOWP/NOVSP/AEB06/PRAHL/NEAPM/RRCAM/NODTR/NOTPO</Vehicle_Spec>
+  <Plant_Mnemonic>
+    <item name="T_R_ADAS" type="6">DASDEVFOTA001</item>  //Serial No.
+    <item name="REF_ADAS" type="6">DASHWPN001</item>  // HW No.
+    <item name="REFOP_ADAS" type="6">DASSWPN001</item> //OP Ref
+    <item name="RUC_ADAS" type="6">DASSWPN001</item>  //RUC
+    <item name="FC_ADAS" type="6">DASCONF001</item>   //Config
+
+
+    <item name="T_R_HUD" type="6">HUDDEVFOTA001</item>  //Serial No.
+    <item name="REF_HUD" type="6">HUDHWPN001</item>  // HW No.
+    <item name="REFOP_HUD" type="6">HUDSWPN001</item>  //OP Ref
+    <item name="RUC_HUD" type="6">HUDSWPN001</item>  //RUC
+    <item name="FC_HUD" type="6">HUDCONF001</item>  //Config
+
+    <item name="T_R_METER" type="6">TDBDEVFOTA001</item>
+    <item name="REF_METER" type="6">TDBHWPN001</item>
+    <item name="REFOP_METER" type="6">TDBSWPN001</item>
+    <item name="RUC_METER" type="6">TDBSWPN001</item>
+    <item name="FC_METER" type="6">TDBCONF001</item>
+
+    <item name="T_R_IVC" type="6">TCUDEVF0TA001</item>
+    <item name="REF_IVC" type="6">TCUHWPN001</item>
+    <item name="REFOP_IVC" type="6">TCUSWPN001</item>
+    <item name="RUC_IVC" type="6">TCUSWPN001</item>
+    <item name="FC_IVC" type="6">TCUCONF001</item>
+
+	<item name="T_R_IVI" type="6">RDODEVF0TA001</item>
+    <item name="REF_IVI" type="6">RDOHWPN001</item>
+    <item name="REFOP_IVI" type="6">RDOSWPN001</item>
+    <item name="RUC_IVI" type="6">RDOSWPN001</item>
+    <item name="FC_IVI" type="6">RDOCONF001</item>
+   
+  </Plant_Mnemonic>
+</ROOT>
