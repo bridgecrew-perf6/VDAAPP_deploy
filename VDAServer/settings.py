@@ -86,9 +86,9 @@ WSGI_APPLICATION = 'VDAServer.wsgi.application'
     }
 }'''
 
-hostname = os.environ['DBHOST']
+#hostname = os.environ['DBHOST']
 
-DATABASES = {
+'''DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': os.environ['DBNAME'],
@@ -96,10 +96,10 @@ DATABASES = {
         'USER': os.environ['DBUSER'] + "@" + hostname,
         'PASSWORD': os.environ['DBPASS']
     }
-}
+}'''
 
 
-'''DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'VDADB',
@@ -109,7 +109,7 @@ DATABASES = {
         'PORT': '5432',
         'sslmode':'true',
     }
-}'''
+}
 
 
 
