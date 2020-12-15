@@ -74,20 +74,18 @@ TEMPLATES = [
 WSGI_APPLICATION = 'VDAServer.wsgi.application'
 
 
+
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-'''DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
-        'OPTIONS': {
-            'timeout': 50,
-        }
     }
-}'''
+}
 
-DATABASES = {
+'''DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'VDADB',
@@ -97,7 +95,7 @@ DATABASES = {
         'PORT': '5432',
         'sslmode':'true',
     }
-}
+}'''
 
 
 
