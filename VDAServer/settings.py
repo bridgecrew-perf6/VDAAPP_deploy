@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'VDAServer.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
+'''DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
@@ -85,7 +85,19 @@ DATABASES = {
             'timeout': 50,
         }
     }
+}'''
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'dbname': 'VDADB',
+        'USER': 'shubham@vdapserver',
+        'PASSWORD': 'Rutuja@99',
+        'HOST': 'vdapserver.postgres.database.azure.com',
+        'PORT': '5432',
+    }
 }
+
 
 
 # Password validation
