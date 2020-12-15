@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +26,7 @@ SECRET_KEY = ')*%^ugtcg4*-!9e1l$emaf@y3ls0qmiztg(f=fwko@2&zycgvk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://vda.azurewebsites.net/']
+ALLOWED_HOSTS = ['https://vda.azurewebsites.net']
 
 # Application definition
 
@@ -78,12 +79,25 @@ WSGI_APPLICATION = 'VDAServer.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
+'''DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
+}'''
+
+hostname = os.environ['DBHOST']
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.environ['DBNAME'],
+        'HOST': hostname + ".postgres.database.azure.com",
+        'USER': os.environ['DBUSER'] + "@" + hostname,
+        'PASSWORD': os.environ['DBPASS']
+    }
 }
+
 
 '''DATABASES = {
     'default': {
