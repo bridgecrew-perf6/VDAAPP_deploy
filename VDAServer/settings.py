@@ -90,11 +90,12 @@ WSGI_APPLICATION = 'VDAServer.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'dbname': 'VDADB',
+        'NAME': 'VDADB',
         'USER': 'shubham@vdapserver',
         'PASSWORD': 'Rutuja@99',
         'HOST': 'vdapserver.postgres.database.azure.com',
         'PORT': '5432',
+        'sslmode':'true',
     }
 }
 
