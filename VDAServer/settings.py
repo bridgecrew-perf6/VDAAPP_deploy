@@ -26,7 +26,7 @@ SECRET_KEY = ')*%^ugtcg4*-!9e1l$emaf@y3ls0qmiztg(f=fwko@2&zycgvk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://vda.azurewebsites.net']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -107,7 +107,6 @@ DATABASES = {
         'PASSWORD': 'Rutuja@99',
         'HOST': 'vdapserver.postgres.database.azure.com',
         'PORT': '5432',
-        'sslmode':'true',
     }
 }
 
