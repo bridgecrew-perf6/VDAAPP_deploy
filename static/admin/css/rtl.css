@@ -2,7 +2,6 @@ body {
     direction: rtl;
 }
 
-/* LOGIN */
 
 .login .form-row {
     float: right;
@@ -83,7 +82,6 @@ div.breadcrumbs {
     margin-right: 0;
 }
 
-/* SORTABLE TABLES */
 
 table thead th.sorted .sortoptions {
    float: left;
@@ -94,14 +92,12 @@ thead th.sorted .text {
     padding-left: 42px;
 }
 
-/* dashboard styles */
 
 .dashboard .module table td a {
     padding-left: .6em;
     padding-right: 16px;
 }
 
-/* changelists styles */
 
 .change-list .filtered table {
     border-left: none;
@@ -129,7 +125,6 @@ thead th.sorted .text {
     border-left: none;
 }
 
-/* FORMS */
 
 .aligned label {
     padding: 0 0 3px 1em;
@@ -229,7 +224,6 @@ form .form-row p.datetime {
     float: right;
 }
 
-/* MISC */
 
 .inline-related h2, .inline-group h2 {
     text-align: right
