@@ -5,7 +5,6 @@ input[type="submit"], button {
 }
 
 @media (max-width: 1024px) {
-    /* Basic */
 
     html {
         -webkit-text-size-adjust: 100%;
@@ -20,7 +19,6 @@ input[type="submit"], button {
         font-size: 12px;
     }
 
-    /* Layout */
 
     #container {
         min-width: 0;
@@ -34,7 +32,6 @@ input[type="submit"], button {
         padding: 10px 30px;
     }
 
-    /* Header */
 
     #header {
         flex-direction: column;
@@ -60,7 +57,6 @@ input[type="submit"], button {
         line-height: 1.4;
     }
 
-    /* Dashboard */
 
     .dashboard #content {
         width: auto;
@@ -90,7 +86,6 @@ input[type="submit"], button {
         font-size: 13px;
     }
 
-    /* Changelist */
 
     #toolbar {
         border: none;
@@ -172,7 +167,6 @@ input[type="submit"], button {
         border-top: none;
     }
 
-    /* Forms */
 
     label {
         font-size: 14px;
@@ -235,7 +229,6 @@ input[type="submit"], button {
         margin-left: 2px;
     }
 
-    /* Related widget */
 
     .related-widget-wrapper {
         float: none;
@@ -251,7 +244,6 @@ input[type="submit"], button {
         margin-left: 10px;
     }
 
-    /* Selector */
 
     .selector {
         display: flex;
@@ -413,7 +405,6 @@ input[type="submit"], button {
         overflow: auto;
     }
 
-    /* Messages */
 
     ul.messagelist li {
         padding-left: 55px;
@@ -428,7 +419,6 @@ input[type="submit"], button {
         background-position: 30px 14px;
     }
 
-    /* Login */
 
     .login #header {
         padding: 15px 20px;
@@ -438,7 +428,6 @@ input[type="submit"], button {
         margin: 0;
     }
 
-    /* GIS */
 
     div.olMap {
         max-width: calc(100vw - 30px);
@@ -450,7 +439,6 @@ input[type="submit"], button {
         margin-top: 10px;
     }
 
-    /* Docs */
 
     .module table.xfull {
         width: 100%;
@@ -461,10 +449,8 @@ input[type="submit"], button {
     }
 }
 
-/* Mobile */
 
 @media (max-width: 767px) {
-    /* Layout */
 
     #header, #content, #footer {
         padding: 15px;
@@ -478,7 +464,6 @@ input[type="submit"], button {
         padding: 10px 15px;
     }
 
-    /* Dashboard */
 
     .colMS, .colSM {
         margin: 0;
@@ -498,7 +483,6 @@ input[type="submit"], button {
         font-size: 16px;
     }
 
-    /* Changelist */
 
     #changelist {
         align-items: stretch;
@@ -548,7 +532,6 @@ input[type="submit"], button {
         margin-left: 15px;
     }
 
-    /* Forms */
 
     .form-row {
         padding: 15px 0;
@@ -658,7 +641,6 @@ input[type="submit"], button {
         margin-top: 5px;
     }
 
-    /* Related widget */
 
     .related-widget-wrapper {
         width: 100%;
@@ -687,7 +669,6 @@ input[type="submit"], button {
         margin-left: 15px;
     }
 
-    /* Selector */
 
     .selector {
         flex-direction: column;
@@ -736,7 +717,6 @@ input[type="submit"], button {
         background-position: 0 -60px;
     }
 
-    /* Inlines */
 
     .inline-group[data-inline-type="stacked"] .inline-related {
         border: 2px solid #eee;
@@ -806,7 +786,6 @@ input[type="submit"], button {
         background-position: 8px 9px;
     }
 
-    /* Submit row */
 
     .submit-row {
         padding: 10px 10px 0;
@@ -833,7 +812,6 @@ input[type="submit"], button {
         order: 4;
     }
 
-    /* Messages */
 
     ul.messagelist li {
         padding-left: 40px;
@@ -848,13 +826,11 @@ input[type="submit"], button {
         background-position: 15px 14px;
     }
 
-    /* Paginator */
 
     .paginator .this-page, .paginator a:link, .paginator a:visited {
         padding: 4px 10px;
     }
 
-    /* Login */
 
     body.login {
         padding: 0 15px;
@@ -909,7 +885,6 @@ input[type="submit"], button {
         font-size: 13px;
     }
 
-    /* Calendar and clock */
 
     .calendarbox, .clockbox {
         position: fixed !important;
@@ -983,7 +958,6 @@ input[type="submit"], button {
         top: 10px;
     }
 
-    /* History */
 
     table#change-history tbody th, table#change-history tbody td {
         font-size: 13px;
@@ -994,7 +968,6 @@ input[type="submit"], button {
         width: auto;
     }
 
-    /* Docs */
 
     table.model tbody th, table.model tbody td {
         font-size: 13px;

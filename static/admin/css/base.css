@@ -13,7 +13,6 @@ body {
     background: #fff;
 }
 
-/* LINKS */
 
 a:link, a:visited {
     color: #447e9b;
@@ -41,7 +40,6 @@ a.section:focus, a.section:hover {
     text-decoration: underline;
 }
 
-/* GLOBAL DEFAULTS */
 
 p, ol, ul, dl {
     margin: .2em 0 .8em 0;
@@ -167,7 +165,6 @@ hr {
     line-height: 1px;
 }
 
-/* TEXT STYLES & MODIFIERS */
 
 .small {
     font-size: 11px;
@@ -207,7 +204,6 @@ p img, h1 img, h2 img, h3 img, h4 img, td img {
     white-space: nowrap;
 }
 
-/* TABLES */
 
 table {
     border-collapse: collapse;
@@ -263,7 +259,6 @@ tr:nth-child(odd) + .row-form-errors .errorlist {
     background: #f9f9f9;
 }
 
-/* SORTABLE TABLES */
 
 thead th {
     padding: 5px 10px;
@@ -375,7 +370,6 @@ table thead th.sorted .sortoptions a.descending:hover {
     background-position: 0 -70px;
 }
 
-/* FORM DEFAULTS */
 
 input, textarea, select, .form-row p, form .button {
     margin: 2px 0;
@@ -412,12 +406,10 @@ select {
 }
 
 select[multiple] {
-    /* Allow HTML size attribute to override the height in the rule above. */
     height: auto;
     min-height: 150px;
 }
 
-/* FORM BUTTONS */
 
 .button, input[type=submit], input[type=button], .submit-row input, a.button {
     background: #79aec8;
@@ -462,7 +454,6 @@ input[type=button][disabled].default {
 }
 
 
-/* MODULES */
 
 .module {
     border: none;
@@ -508,7 +499,6 @@ input[type=button][disabled].default {
     border-collapse: collapse;
 }
 
-/* MESSAGES & ERRORS */
 
 ul.messagelist {
     padding: 0;
@@ -601,7 +591,6 @@ td ul.errorlist + input, td ul.errorlist + select, td ul.errorlist + textarea {
     padding: 5px 0 0 12px;
 }
 
-/* BREADCRUMBS */
 
 div.breadcrumbs {
     background: #79aec8;
@@ -620,7 +609,6 @@ div.breadcrumbs a:focus, div.breadcrumbs a:hover {
     color: #c4dce8;
 }
 
-/* ACTION ICONS */
 
 .viewlink, .inlineviewlink {
     padding-left: 16px;
@@ -651,7 +639,6 @@ a.deletelink:focus, a.deletelink:hover {
     text-decoration: none;
 }
 
-/* OBJECT TOOLS */
 
 .object-tools {
     font-size: 10px;
@@ -715,7 +702,6 @@ a.deletelink:focus, a.deletelink:hover {
     background-image: url(../img/tooltag-add.svg);
 }
 
-/* OBJECT HISTORY */
 
 table#change-history {
     width: 100%;
@@ -725,7 +711,6 @@ table#change-history tbody th {
     width: 16em;
 }
 
-/* PAGE STRUCTURE */
 
 #container {
     position: relative;
@@ -776,7 +761,6 @@ table#change-history tbody th {
     padding: 10px;
 }
 
-/* COLUMN TYPES */
 
 .colMS {
     margin-right: 300px;
@@ -800,7 +784,6 @@ table#change-history tbody th {
     width: auto;
 }
 
-/* HEADER */
 
 #header {
     width: auto;
@@ -871,7 +854,6 @@ table#change-history tbody th {
     color: #79aec8;
 }
 
-/* SIDEBAR */
 
 #content-related {
     background: #f8f8f8;
@@ -948,7 +930,6 @@ table#change-history tbody th {
     background: #ccc;
 }
 
-/* POPUP */
 .popup #content {
     padding: 20px;
 }
